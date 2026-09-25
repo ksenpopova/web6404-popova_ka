@@ -4,4 +4,5 @@
 Научный руководитель - Ростова Елена Павловна  
 Тема - экономико-математическое моделирование портфеля страховой компании  
 Цитаты нет, но есть картинка  
-<img width="735" height="806" alt="a302bbb89a54c0d8e4b3be6988088278" src="https://github.com/user-attachments/assets/0d67da9f-23f5-4842-a739-1f76c36defe6" />
+<img width="735" height="806" alt="a302bbb89a54c0d8e4b3be6988088278" src="https://github.com/user-attachments/assets/764e4bab-94a8-468a-acef-303a1a8b6776" />
+
