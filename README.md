@@ -6,3 +6,12 @@
 Цитаты нет, но есть картинка  
 <img width="735" height="806" alt="a302bbb89a54c0d8e4b3be6988088278" src="https://github.com/user-attachments/assets/764e4bab-94a8-468a-acef-303a1a8b6776" />
 
+## Лабораторная работа №2
+Многостраничный сайт «ПАС» (аптечки).  
+**Структура:**  
+- `lab2/index.html` — главная  
+- `lab2/catalog.html` — каталог с таблицей  
+- `lab2/composition.html` — состав аптечки  
+- `lab2/contacts.html` — форма заказа  
+- `lab2/css/style.css` — стили  
+- `lab2/images/` — логотип и иконка  
