@@ -11,3 +11,4 @@ yarn.lock
 .vscode/*
 !.vscode/extensions.json
 .idea
+node_modules/
