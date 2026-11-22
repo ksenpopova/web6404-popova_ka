@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>ПАС — Контакты</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="header__left">
+            <img src="images/logo.jpg" alt="Логотип ПАС" width="50" height="50" class="header__logo">
+            <span class="header__logo-text">П<strong class="header__logo-accent">А</strong>С</span>
+        </div>
+        <nav class="header__nav">
+            <a href="index.html" class="header__link">Главная</a>
+            <a href="catalog.html" class="header__link">Каталог</a>
+            <a href="composition.html" class="header__link">Состав</a>
+            <a href="contacts.html" class="header__link header__link_active">Контакты</a>
+        </nav>
+    </header>
+
+    <main class="page">
+        <h1 class="page__title">Свяжитесь с нами</h1>
+
+        <div class="contacts">
+            <div class="contacts__info">
+                <h2 class="contacts__subtitle">Наши контакты</h2>
+                <p><strong>Адрес:</strong> г. Самара, ул. Верхне-карьерная, д. 3</p>
+                <p><strong>Телефон:</strong> <a href="tel:+78001234567">8 (800) 123-45-67</a></p>
+                <p><strong>Email:</strong> <a href="mailto:info@pas.ru">info@pas.ru</a></p>
+                <p><strong>Режим работы:</strong> Пн–Пт, 9:00–18:00</p>
+                <p>Полезная ссылка: <a href="https://www.mchs.gov.ru" target="_blank">Сайт МЧС России</a></p>
+            </div>
+
+            <div class="contacts__form">
+                <h2 class="contacts__subtitle">Оставить заявку</h2>
+                <form id="order-form" class="form" action="#" method="post">
+                    <div class="form__group">
+                        <label for="name" class="form__label">Ваше имя:</label>
+                        <input type="text" id="name" name="name" class="form__input" required>
+                    </div>
+                    <div class="form__group">
+                        <label for="phone" class="form__label">Телефон:</label>
+                        <input type="tel" id="phone" name="phone" class="form__input" required>
+                    </div>
+                    <div class="form__group">
+                        <label for="email" class="form__label">Email:</label>
+                        <input type="email" id="email" name="email" class="form__input" required>
+                    </div>
+                    <div class="form__group">
+                        <label for="kit" class="form__label">Выберите аптечку:</label>
+                        <select id="kit" name="kit" class="form__select">
+                            <option value="Автомобильная">Автомобильная</option>
+                            <option value="Домашняя">Домашняя</option>
+                            <option value="Туристическая">Туристическая</option>
+                            <option value="Детская">Детская</option>
+                        </select>
+                    </div>
+                    <div class="form__group">
+                        <label for="comment" class="form__label">Комментарий:</label>
+                        <textarea id="comment" name="comment" rows="4" class="form__textarea"></textarea>
+                    </div>
+                    <div class="form__group">
+                        <label class="form__checkbox-label">
+                            <input type="checkbox" id="agree" name="agree" class="form__checkbox" required>
+                            Согласен на обработку персональных данных
+                        </label>
+                    </div>
+                    <div class="form__group">
+                        <button type="submit" class="btn">Отправить заявку</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__text">&copy; 2026 ПАС. Все права защищены.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

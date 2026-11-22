@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>ПАС — Каталог</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="header__left">
+            <img src="images/logo.jpg" alt="Логотип ПАС" width="50" height="50" class="header__logo">
+            <span class="header__logo-text">П<strong class="header__logo-accent">А</strong>С</span>
+        </div>
+        <nav class="header__nav">
+            <a href="index.html" class="header__link">Главная</a>
+            <a href="catalog.html" class="header__link header__link_active">Каталог</a>
+            <a href="composition.html" class="header__link">Состав</a>
+            <a href="contacts.html" class="header__link">Контакты</a>
+        </nav>
+    </header>
+
+    <main class="page">
+        <h1 class="page__title">Каталог аптечек</h1>
+        <p class="page__description">Выберите подходящую аптечку для ваших задач</p>
+
+        <section class="catalog">
+            <div class="catalog__grid">
+                <div class="product-card">
+                    <h3 class="product-card__title">Автомобильная</h3>
+                    <p class="product-card__desc">Компактная аптечка для машины. 25 предметов.</p>
+                    <p class="product-card__action"><a href="composition.html" class="btn btn_small">Подробнее</a></p>
+                </div>
+                <div class="product-card">
+                    <h3 class="product-card__title">Домашняя</h3>
+                    <p class="product-card__desc">Полный набор для семьи. 40 предметов.</p>
+                    <p class="product-card__action"><a href="composition.html" class="btn btn_small">Подробнее</a></p>
+                </div>
+                <div class="product-card">
+                    <h3 class="product-card__title">Туристическая</h3>
+                    <p class="product-card__desc">Лёгкая аптечка для походов. 30 предметов.</p>
+                    <p class="product-card__action"><a href="composition.html" class="btn btn_small">Подробнее</a></p>
+                </div>
+                <div class="product-card">
+                    <h3 class="product-card__title">Детская</h3>
+                    <p class="product-card__desc">Мягкие и безопасные средства. 20 предметов.</p>
+                    <p class="product-card__action"><a href="composition.html" class="btn btn_small">Подробнее</a></p>
+                </div>
+            </div>
+
+            <h2 class="catalog__section-title">Сравнение характеристик</h2>
+            <table class="table">
+                <tr>
+                    <td class="table__cell table__cell_left"><strong>Название аптечки</strong></td>
+                    <td class="table__cell table__cell_center"><strong>Количество</strong></td>
+                    <td class="table__cell table__cell_center"><strong>Вес (кг)</strong></td>
+                    <td class="table__cell table__cell_right"><strong>Цена (₽)</strong></td>
+                </tr>
+                <tr>
+                    <td class="table__cell table__cell_left">Автомобильная</td>
+                    <td class="table__cell table__cell_center">25</td>
+                    <td class="table__cell table__cell_center">0.8</td>
+                    <td class="table__cell table__cell_right">1 500</td>
+                </tr>
+                <tr>
+                    <td class="table__cell table__cell_left">Домашняя</td>
+                    <td class="table__cell table__cell_center">40</td>
+                    <td class="table__cell table__cell_center">1.5</td>
+                    <td class="table__cell table__cell_right">2 500</td>
+                </tr>
+                <tr>
+                    <td class="table__cell table__cell_left">Туристическая</td>
+                    <td class="table__cell table__cell_center">30</td>
+                    <td class="table__cell table__cell_center">1.0</td>
+                    <td class="table__cell table__cell_right">2 000</td>
+                </tr>
+                <tr>
+                    <td class="table__cell table__cell_left">Детская</td>
+                    <td class="table__cell table__cell_center">20</td>
+                    <td class="table__cell table__cell_center">0.6</td>
+                    <td class="table__cell table__cell_right">1 800</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__text">&copy; 2026 ПАС. Все права защищены.</p>
+    </footer>
+
+</body>
+</html>
